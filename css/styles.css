@@ -1,0 +1,390 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4 px;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+:root {}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-span-header {
+    color: #2e2f42;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-item {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-item:hover {
+    color: #404bbf
+}
+
+.contacts-item:focus {
+    color: #404bbf
+}
+
+.service {
+    background-color: #2e2f42;
+    padding: 188px 0;
+
+}
+
+.service-name {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.service-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.service-button:hover {
+    background-color: #404BBF
+}
+
+.service-button:focus {
+    background-color: #404BBF
+}
+
+.principles-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.principles-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.activity-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-span-footer {
+    color: #f4f4fd;
+}
+
+.button-list-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.button-list-item:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.button-list-item:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    max-width: 264px;
+}
+
+
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    padding: 24px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
+.principles {
+    padding: 120px 0;
+}
+
+.principles-list {
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+}
+
+.principles-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.activity {
+    padding-bottom: 120px;
+}
+
+.activity-list {
+    display: flex;
+    gap: 24px;
+}
+
+.activity-list-item {
+    width: calc((100%-48px)/3);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-item-div {
+    padding: 32px 16px;
+}
+
+.team-list-item-header {
+    text-align: center;
+}
+
+.team-list-item-paragraph {
+    text-align: center;
+}
+
+.buttons {
+    padding: 96px 0 120px;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.examples-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.examples-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.examples-list-item-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.examples-list-item-header {
+    margin-bottom: 8px;
+}
